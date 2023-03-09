@@ -1,0 +1,39 @@
+button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+    /* background color muda a cor do botão */
+    /* color muda o texto */
+.white{
+    background-color: #ffffff;
+    color: black;
+}
+
+.red{
+    background-color: #d40000;
+    color: #ffffff;
+}
+
+.green{
+    background-color: #27d127;
+    color: black;
+}
+
+.black{
+    background-color: black;
+    color: #ffffff;
+}
+
+.blue{
+    background-color: #006eff;
+    color: white;
+}
+
+.incolor{
+    
+}
