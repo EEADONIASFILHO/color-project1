@@ -76,14 +76,6 @@ pre{
 
 /*css dos botões ⬇️*/
 
-* {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0
-}
-
 .titulo{
     color: white;
     text-align: center;
