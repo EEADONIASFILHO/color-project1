@@ -1,39 +1,77 @@
-button{
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
+/*tags padrões*/
 
-    /* background color muda a cor do botão */
-    /* color muda o texto */
-.white{
-    background-color: #ffffff;
-    color: black;
-}
-
-.red{
-    background-color: #d40000;
+html{
+    background-color: #051124;
     color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.green{
-    background-color: #27d127;
-    color: black;
-}
-
-.black{
-    background-color: black;
-    color: #ffffff;
-}
-
-.blue{
-    background-color: #006eff;
+header {
+    max-height: fit-content;
+    min-width: 100px;
+    width: 100%;
+    display: inline-flex;
+    padding: 4%;
+    font-size: 500%;
+    line-height: 10%;
     color: white;
+    min-height: 120px;
+    margin: 20%,20%,20%;
+  }
+
+  /*detalhes sobre o artista e sua foto*/
+
+.artista {
+    height: 20%;
+    max-width: 140px;
+    margin-left: 3%;
+}
+.artistaName {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+    font-size: xx-large;
+    text-underline-offset: 4%;
+    text-align: center;
 }
 
-.incolor{
-    
+.artistamusic{
+    font-size: medium;
 }
+
+  /*aqui muda as cores das páginas de cada musica baseado no nome do artista*/
+
+  .madonna{
+    background-image: linear-gradient(#d6d6d6, #051124);
+  }
+
+  .katy {
+    background-image: linear-gradient(#f80000, #051124);
+  }
+
+  /*aqui é a area da letra e seu titulo*/
+
+.letra{
+    color: rgb(255, 255, 255);
+    font-size: 105%;
+    border-radius: 5px;
+    border: 1px solid #c4c3c38f;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    margin-top: 2%;
+    text-align: center;
+    display: inline-block;
+    background-color: 	#202020;
+    width: 300px;
+    height: 20px;
+    margin-right: 5%;
+}
+
+/*apenas o Lirycs*/
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 180%;
+}
+
+/*css dos botões ⬇️*/
