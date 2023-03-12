@@ -10,15 +10,21 @@ html{background-color: rgb(5, 17, 36)}
 
 
 
-
 .titulo{
+    background-image: linear-gradient(to bottom, white, white);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: center;
+     margin-bottom: 50px;
+     font-size: 30px;
+   }
+
+
+.X{
  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255), rgb(255, 255, 255), rgb(148, 139, 139) );
     background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-bottom: 50px;
-  font-size: 30px;
+
 }
 
 
