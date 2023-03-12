@@ -1,0 +1,348 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+html{background-color: rgb(5, 17, 36)}
+
+
+
+
+.titulo{
+ background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255), rgb(255, 255, 255), rgb(148, 139, 139) );
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+
+.img1{
+    width: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.imag1{
+    background-image: url(https://jornaleconomico.pt/wp-content/uploads/2017/09/furac%C3%A3o1.jpg);
+}
+
+.img2{
+    width: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.imag2{
+    background-image: url(https://img.pikbest.com/back_our/bg/20201009/bg/1284794adb05a_410846.jpg!w700wp);
+}
+
+.img3{
+    width: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    background-image: url();
+}
+
+.imag3{
+    background-image: url(https://i.pinimg.com/originals/06/15/dd/0615dd717d7971386f2b36c6a67af105.jpg);
+}
+
+.img4{
+    width: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.imag4{
+    background-image: url(https://i0.wp.com/www.riograndesierraclub.org/wp-content/uploads/2015/06/ocean-water-banner-dark.jpg?ssl=1);
+}
+
+.img5{
+    width: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.imag5{
+    background-image: url(https://wallpapersmug.com/download/1920x1080/40f13d/dark-hatred-video-game-art.jpg);
+}
+
+.img6{
+    width: 50px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.imag6{
+    background-image: url(https://media.istockphoto.com/id/1384963623/vector/black-texture-background-vector-old-gray-marbled-vintage-grunge-textured-design-antique.jpg?s=612x612&w=0&k=20&c=GUFa6DJonv3RuJVaj__j6fjJuup90igwoThf57OYdBQ=)
+}
+
+
+
+/********************************************/
+.botao1{
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+}
+
+.botao2{
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao3{
+    border-radius: 6px;
+    border: none;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao4{
+    border-radius: 6px;
+    border: none;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao5{
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao6{
+    border-radius: 6px;
+    border: none;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 10px 0px 0px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+ 
+
+
+
+/**Botao White**/
+
+.botao1 span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao1 span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao1:hover span {
+    padding-right: 33px;
+}
+    
+.botao1:hover span:after {
+    opacity: 1;
+    right: 2;
+}
+/**FIM BRANCO**/
+
+
+
+
+/**Botao Red**/
+
+.botao2 span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao2 span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao2:hover span {
+    padding-right: 33px;
+}
+    
+.botao2:hover span:after {
+    opacity: 1;
+    right: 2;
+}
+/**FIM RED**/
+
+
+
+
+/**Botao Green**/
+
+.botao3 span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao3 span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao3:hover span {
+    padding-right: 33px;
+}
+    
+.botao3:hover span:after {
+    opacity: 1;
+    right: 2;
+}
+/**FIM GREEN**/
+
+
+
+
+
+/**Botao Blue**/
+
+.botao4 span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao4 span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao4:hover span {
+    padding-right: 33px;
+}
+    
+.botao4:hover span:after {
+    opacity: 1;
+    right: 2;
+}
+/**FIM BLUE**/
+
+
+
+
+
+/**Botao Black**/
+
+.botao5 span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao5 span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao5:hover span {
+    padding-right: 33px;
+}
+    
+.botao5:hover span:after {
+    opacity: 1;
+    right: 2;
+}
+/**FIM BLACK**/
+
+
+
+
+
+/**Botao Incolor**/
+
+.botao6 span{
+    position: relative;
+    transition: 0.50s;
+}
+
+.botao6 span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.8s;
+}
+
+.botao6:hover span {
+    padding-right: 33px;
+}
+    
+.botao6:hover span:after {
+    opacity: 1;
+    right: 2;
+}
+/**FIM INCOLOR**/
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: small ;
+}
