@@ -156,13 +156,14 @@ header {
 
 
 /**BLUE START**/
-  .lingua7{
+    .lingua7{
     flex: 25%;
     padding: 20px;
     display: inline-flex;
     width: 35%;
+    margin-right: 20px;
     justify-content: center;
-    background-color: gray;
+    background-image:linear-gradient(to bottom, #006bf7,#051124);
     border-radius: 100px;
   }
 
@@ -171,22 +172,20 @@ header {
     padding: 20px;
     display: inline-flex;
     width: 35%;
-    margin-right: 20px;
     justify-content: center;
-    background-color: gray;
+    background-image:linear-gradient(to bottom, #006bf7,#051124);
     border-radius: 100px;
-  }
 /**BLUE FIM**/
 
 /**BLACK START**/
-  .lingua9{
+    .lingua9{
     flex: 25%;
     padding: 20px;
     display: inline-flex;
     width: 35%;
     margin-right: 20px;
     justify-content: center;
-    background-color: gray;
+    background-image:linear-gradient(to bottom, #000000,#051124);
     border-radius: 100px;
   }
 
@@ -195,9 +194,8 @@ header {
     padding: 20px;
     display: inline-flex;
     width: 35%;
-    margin-right: 20px;
     justify-content: center;
-    background-color: gray;
+    background-image:linear-gradient(to bottom, #000000,#051124);
     border-radius: 100px;
   }
 /**BLACK FIM**/
