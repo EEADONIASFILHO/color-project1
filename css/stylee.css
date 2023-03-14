@@ -80,43 +80,48 @@ header {
 
   /*aqui é a area da letra e seu titulo*/
 
-.letra{
-    color: rgb(255, 255, 255);
-    font-size: 105%;
-    border-radius: 5px;
-    border: 1px solid #c4c3c38f;
-    display: flex;
-    height: 150px;
-    align-items: center;
-    margin-top: 2%;
-    text-align: center;
-    display: inline-block;
-    background-color: 	#202020;
-    width: 300px;
-    height: 30px;
-    margin-right: 5%;
-}
+  .coluna1 {
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+  }
 
-.letraptbr{
-    color: rgb(255, 255, 255);
-    font-size: 105%;
-    border-radius: 5px;
-    border: 1px solid #c4c3c38f;
-    display: flex;
-    height: 150px;
-    align-items: center;
-    margin-top: 2%;
-    text-align: center;
-    display: inline-block;
-    background-color: 	#202020;
-    width: 300px;
-    height: 30px;
-    margin-left:7%;
-}
+  .coluna2 {
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+  }
+  
+
+
+  .lingua1{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+
+  .lingua2 {
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+  
+
 
 /*apenas o Lirycs*/
 
-p{
+pre{
     font-family: 'Times New Roman', Times, serif;
     line-height: 180%;
 }
