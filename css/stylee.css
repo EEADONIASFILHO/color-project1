@@ -85,7 +85,21 @@ header {
 
   /*aqui é a area da letra e seu titulo*/
 
-  /**WHITE START**/
+  .letra1 {
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+  }
+
+  .letra2 {
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+  }  
+
+/**WHITE START**/
   .lingua1{
     flex: 25%;
     padding: 20px;
