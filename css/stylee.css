@@ -85,22 +85,7 @@ header {
 
   /*aqui é a area da letra e seu titulo*/
 
-  .letra1 {
-    flex: 25%;
-    padding: 20px;
-    display: inline-flex;
-    width: 35%;
-  }
-
-  .letra2 {
-    flex: 25%;
-    padding: 20px;
-    display: inline-flex;
-    width: 35%;
-  }
-  
-
-
+  /**WHITE START**/
   .lingua1{
     flex: 25%;
     padding: 20px;
@@ -121,6 +106,126 @@ header {
     background-color: gray;
     border-radius: 100px;
   }
+/**WHITE FIM**/
+
+/**RED START**/
+  .lingua3{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+  
+.lingua4{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+/**RED FIM**/
+  
+/**GREEN START**/
+.lingua5{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+
+  .lingua6{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+/**GREEN FIM**/
+
+
+/**BLUE START**/
+  .lingua7{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+
+  .lingua8{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+/**BLUE FIM**/
+
+/**BLACK START**/
+  .lingua9{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+
+  .lingua10{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+/**BLACK FIM**/
+
+/**INCOLOR START**/
+  .lingua11{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+
+  .lingua12{
+    flex: 25%;
+    padding: 20px;
+    display: inline-flex;
+    width: 35%;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 100px;
+  }
+
+/**INCOLOR FIM**/
   
 
 
